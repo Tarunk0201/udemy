@@ -1,4 +1,4 @@
-function getMilk() {   
+function getMilk(bottles) {   
     console.log("leaveHouse");
     console.log("moveRight");
     console.log("moveRight");
@@ -19,3 +19,9 @@ function getMilk() {
     console.log("moveLeft");
     console.log("enterHouse");
   }
+
+    let money = prompt("money");
+    let bottles = 0;
+function calcuBottle(){
+    bottles = money / 1.5;
+}
