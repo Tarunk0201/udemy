@@ -4,26 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
-    <h1>Tarun Kumar Singh</h1>
-    <h2>Web Developer</h2>
-    <hr />
-    <div class="contect" >
-        <p>abcd@xyz</p>
-        <p>+91 123456789</p>
-        <p>XYZ, abcd Road</p>
-        <p>github.com/xyz</p>
+    <div class="container">
+        <h1 class="mt-5 heading name">Tarun Kumar Singh</h1>
+        <h3 class="heading"class="mx-2">Web Developer</h3>
     </div>
-    <h3> OBJECTIVE </h3>
+    <hr>
+
+    <div class="d-flex gap-5 justify-content-center py-4">
+        <span class="badge bg-info-subtle text-info-emphasis rounded-pill">abcd@xyz</span>
+        <span class="badge bg-info-subtle text-info-emphasis rounded-pill">+91 123456789</span>
+        <span class="badge bg-info-subtle text-info-emphasis rounded-pill">XYZ, abcd Road</span>
+        <span class="badge bg-info-subtle text-info-emphasis rounded-pill">github.com/xyz</span>
+    </div>
+
+
+    <div class="container">
+    <h3 class="heading"> OBJECTIVE </h3>
     <p>
         Aspiring React Developer with a strong understanding of HTML, CSS, JavaScript, and React.js. Passionate
         about crafting seamless, responsive user experiences and eager to apply my skills in a collaborative
         environment to build innovative web applications.
     </p>
 
-    <h3>EDUCATION</h3>
+    <h3 class="heading" >EDUCATION</h3>
     <h4>Bachelor of arts</h4>
     <ul>
         <li>
@@ -36,14 +47,14 @@
             MIT Pune ( Remote )
         </li>
     </ul>
-    <h3>PROJECT</h3>
-    <h4>TextUtils web app:</h4>
+    <h3 class="heading" >PROJECT</h3>
+    <h5>TextUtils web app:</h5>
         <p>
             Built using HTML, CSS (Tailwind), JavaScript, React, and Bootstrap the app provides users
             with tools to perform various text operations such as counting words and characters,
             converting text to uppercase or lowercase, removing extra spaces, and more.
         </p>
-    <h4>NewsApp:</h4>
+    <h5>NewsApp:</h5>
         <p>
             NewsApp is a simple and efficient news aggregator that fetches real-time news from various
             sources using an API. Designed for fast and easy browsing, this app keeps users informed
@@ -51,7 +62,7 @@
         </p>
 <div>
     <div class="PROFESSIONAL">
-        <h3>PROFESSIONAL SKILL</h3>
+        <h3 class="heading" >PROFESSIONAL SKILL</h3>
         <ul>
             <li>HTML</li>
             <li>CSS</li>
@@ -61,7 +72,7 @@
         </ul>
     </div>
     <div class="CERTIFICATIONS">
-        <h3>CERTIFICATIONS</h3>
+        <h3 class="heading">CERTIFICATIONS</h3>
         <ul>
             <li>MySQL</li>
             <li>Ms Excel</li>
@@ -72,7 +83,7 @@
 </div>
 <div>
     <div class="HOBBIES">
-        <h3>HOBBIES</h3>
+        <h3 class="heading">HOBBIES</h3>
         <ul>
             <li>cooking</li>
             <li>Reading Comics</li>
@@ -81,15 +92,17 @@
         </ul>
     </div>
     <div class="LANGUAGES">
-        <h3>LANGUAGES</h3>
+        <h3 class="heading">LANGUAGES</h3>
         <ul>
             <li>English</li>
             <li>Hindi</li>
         </ul>
     </div>
 </div>
+</div>
 </body>
 <footer>
     <p>© 2025 abcd</p>
-  </footer>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </html>
